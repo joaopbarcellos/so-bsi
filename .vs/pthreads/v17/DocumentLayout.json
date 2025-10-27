@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|D:\\pthreads\\pthreads\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|solutionrelative:pthreads\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|D:\\pthreads\\PACKAGES\\PTHREADS.2.9.1.4\\BUILD\\NATIVE\\INCLUDE\\PTHREAD.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|solutionrelative:PACKAGES\\PTHREADS.2.9.1.4\\BUILD\\NATIVE\\INCLUDE\\PTHREAD.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +28,22 @@
               "RelativeDocumentMoniker": "pthreads\\main.c",
               "ToolTip": "D:\\pthreads\\pthreads\\main.c",
               "RelativeToolTip": "pthreads\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-27T16:33:55.854Z",
+              "WhenOpened": "2025-10-27T18:36:46.564Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pthread.h",
+              "DocumentMoniker": "D:\\pthreads\\packages\\pthreads.2.9.1.4\\build\\native\\include\\pthread.h",
+              "RelativeDocumentMoniker": "packages\\pthreads.2.9.1.4\\build\\native\\include\\pthread.h",
+              "ToolTip": "D:\\pthreads\\packages\\pthreads.2.9.1.4\\build\\native\\include\\pthread.h",
+              "RelativeToolTip": "packages\\pthreads.2.9.1.4\\build\\native\\include\\pthread.h",
+              "ViewState": "AgIAACsBAAAAAAAAAAASwD8BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-27T18:17:42.623Z"
             }
           ]
         }
