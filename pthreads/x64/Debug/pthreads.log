@@ -1,0 +1,4 @@
+﻿  main.c
+D:\pthreads\pthreads\main.c(5,10): error C2015: muitos caracteres na constante
+D:\pthreads\pthreads\main.c(5,10): error C2006: '#include': esperava-se "NOME_DE_ARQUIVO" ou <FILENAME>
+D:\pthreads\pthreads\main.c(5,10): error C1083: Não é possível abrir arquivo incluir: '': No such file or directory
