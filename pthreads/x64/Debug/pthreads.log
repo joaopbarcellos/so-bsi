@@ -1,2 +1,3 @@
 ﻿  main.c
+D:\pthreads\pthreads\main.c(144,1): warning C4716: 'thread_function': deve retornar um valor
   pthreads.vcxproj -> D:\pthreads\x64\Debug\pthreads.exe
