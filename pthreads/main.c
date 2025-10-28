@@ -13,8 +13,8 @@
 #define ALTURA 10000
 #define LARGURA 9000
 
-#define ALTURA_MACRO_BLOCO 2000
-#define LARGURA_MACRO_BLOCO 1500
+#define ALTURA_MACRO_BLOCO 2500
+#define LARGURA_MACRO_BLOCO 2250
 
 #define SEED 67
 
@@ -117,7 +117,7 @@ void *thread_function(void* nenhum) {
 		proximo_bloco++;
 		pthread_mutex_unlock(&bloco_mutex);
 
-		int linha = (bloco_atual - 1) % linhas_bloco;
+		int linha = (bloco_atual - 1) / colunas_bloco;
 		int coluna = (bloco_atual - 1) % colunas_bloco;
 
 		int linha_inicial = linha * ALTURA_MACRO_BLOCO;
