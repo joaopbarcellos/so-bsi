@@ -13,12 +13,12 @@
 #define ALTURA 10000
 #define LARGURA 9000
 
-#define ALTURA_MACRO_BLOCO 5000
-#define LARGURA_MACRO_BLOCO 3000
+#define ALTURA_MACRO_BLOCO 2000
+#define LARGURA_MACRO_BLOCO 1500
 
 #define SEED 67
 
-#define NUM_THREADS 6
+#define NUM_THREADS 8
 
 int** matriz;
 
@@ -117,8 +117,7 @@ void *thread_function(void* nenhum) {
 		proximo_bloco++;
 		pthread_mutex_unlock(&bloco_mutex);
 
-		// TA ERRADO DE ALGUMA FORMA N FAÇO IDEIA DO QUE FAZER SERA QUE SOU BURRO?
-		int linha = (bloco_atual - 1) / linhas_bloco;
+		int linha = (bloco_atual - 1) % linhas_bloco;
 		int coluna = (bloco_atual - 1) % colunas_bloco;
 
 		int linha_inicial = linha * ALTURA_MACRO_BLOCO;

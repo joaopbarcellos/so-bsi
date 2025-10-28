@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\pthreads\\",
+  "WorkspaceRootPath": "D:\\Gustavo\\Faculdade\\4\u00BA Semestre\\SO\\trabalho-pthreads\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|D:\\pthreads\\pthreads\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|D:\\Gustavo\\Faculdade\\4\u00BA Semestre\\SO\\trabalho-pthreads\\pthreads\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{673E44B4-5D78-42C9-9911-44FF9CCDFA9C}|pthreads\\pthreads.vcxproj|solutionrelative:pthreads\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "D:\\pthreads\\pthreads\\main.c",
+              "DocumentMoniker": "D:\\Gustavo\\Faculdade\\4\u00BA Semestre\\SO\\trabalho-pthreads\\pthreads\\main.c",
               "RelativeDocumentMoniker": "pthreads\\main.c",
-              "ToolTip": "D:\\pthreads\\pthreads\\main.c",
+              "ToolTip": "D:\\Gustavo\\Faculdade\\4\u00BA Semestre\\SO\\trabalho-pthreads\\pthreads\\main.c",
               "RelativeToolTip": "pthreads\\main.c",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAiwHcAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-27T18:36:46.564Z",
               "EditorCaption": ""
