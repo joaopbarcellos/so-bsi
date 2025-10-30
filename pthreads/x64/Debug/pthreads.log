@@ -1,3 +1,3 @@
 ﻿  main.c
-D:\Gustavo\Faculdade\4º Semestre\SO\trabalho-pthreads\pthreads\main.c(144,1): warning C4716: 'thread_function': deve retornar um valor
-  pthreads.vcxproj -> D:\Gustavo\Faculdade\4º Semestre\SO\trabalho-pthreads\x64\Debug\pthreads.exe
+C:\Users\dtfmj\Documents\so-bsi\pthreads\main.c(143,1): warning C4716: 'thread_function': deve retornar um valor
+  pthreads.vcxproj -> C:\Users\dtfmj\Documents\so-bsi\x64\Debug\pthreads.exe

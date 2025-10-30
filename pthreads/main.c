@@ -11,14 +11,14 @@
 
 #define NUM_MAX 31999
 #define ALTURA 10000
-#define LARGURA 9000
+#define LARGURA 10000
 
-#define ALTURA_MACRO_BLOCO 2500
-#define LARGURA_MACRO_BLOCO 2250
+#define ALTURA_MACRO_BLOCO 1000
+#define LARGURA_MACRO_BLOCO 1000
 
 #define SEED 67
 
-#define NUM_THREADS 8
+#define NUM_THREADS 6
 
 int** matriz;
 
@@ -108,13 +108,12 @@ void *thread_function(void* nenhum) {
 
 	while (1){
 
-		pthread_mutex_lock(&bloco_mutex);
 		if (proximo_bloco > quantidade_blocos) {
 			pthread_mutex_unlock(&bloco_mutex);
 			break;
 		}
-		bloco_atual = proximo_bloco;
-		proximo_bloco++;
+		pthread_mutex_lock(&bloco_mutex);
+		bloco_atual = proximo_bloco++;
 		pthread_mutex_unlock(&bloco_mutex);
 
 		int linha = (bloco_atual - 1) / colunas_bloco;
